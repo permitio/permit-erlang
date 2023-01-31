@@ -1,0 +1,18 @@
+{application, openapi,
+ [{description, " Authorization as a service "},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+    [kernel,
+     stdlib,
+     ssl,
+     hackney,
+     ctx
+    ]},
+  {env, [{host, "localhost"}]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+]}.
