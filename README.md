@@ -1,4 +1,4 @@
-# OpenAPI server library for Erlang
+# Permit Erlang SDK
 
 ## Overview
 
